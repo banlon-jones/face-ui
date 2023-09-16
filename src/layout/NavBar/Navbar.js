@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../../components/Button-Component';
 
 const Navbar = () => (
   <div className="container p-2">
@@ -7,7 +8,7 @@ const Navbar = () => (
         <h1> Face HR </h1>
       </div>
       <div>
-        <button type="button" className="btn btn-primary rounded-pill"> Contact Us </button>
+        <Button type="button" label="Contact Us" />
       </div>
     </div>
   </div>
