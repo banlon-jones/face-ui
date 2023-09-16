@@ -1,5 +1,6 @@
 import React from 'react';
 import './hero.css';
+import Button from '../../components/Button-Component';
 
 const HeroSection = () => (
   <div className="hero">
@@ -17,7 +18,7 @@ const HeroSection = () => (
         <span className="btn btn-info rounded-pill mx-3"> Coming soon</span>
       </p>
       <div>
-        <button type="button" className="btn btn-primary rounded-pill"> Contact now </button>
+        <Button label="Contact now" buttontype="submit" />
       </div>
     </div>
   </div>
